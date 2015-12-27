@@ -1,0 +1,30 @@
+{
+  "name": "postgres-js",
+  "version": "1.0.0",
+  "description": "simple promise based CRUD wrapper for postgresq",
+  "main": "index.js",
+  "dependencies": {
+    "pg": "^4.4.3",
+    "pg-native": "^1.10.0",
+    "pg-then": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tayste5000/postgres-js.git"
+  },
+  "keywords": [
+    "postgres",
+    "promise",
+    "CRUD"
+  ],
+  "author": "Taylor Stevens <tayste5000@gmail.com> (https://github.com/tayste5000)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tayste5000/postgres-js/issues"
+  },
+  "homepage": "https://github.com/tayste5000/postgres-js#readme"
+}
