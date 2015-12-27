@@ -1,0 +1,14 @@
+DROP TABLE parent CASCADE;
+DROP TABLE child;
+
+CREATE TABLE parent (
+	id SERIAL,
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE child (
+	id SERIAL,
+	user_id INT NOT NULL,
+	PRIMARY KEY (id),
+	FOREIGN KEY (user_id) REFERENCES parent(id) ON DELETE CASCADE
+);
