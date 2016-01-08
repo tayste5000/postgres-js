@@ -1,7 +1,7 @@
 {
   "name": "postgres-js",
   "version": "1.0.0",
-  "description": "simple promise based CRUD wrapper for postgresq",
+  "description": "simple promise based CRUD wrapper for postgresql",
   "main": "index.js",
   "dependencies": {
     "pg": "^4.4.3",
